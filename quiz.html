@@ -6,36 +6,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refreshed Skincare</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
+    <div class="parallax">
+        <img src="images/background image.webp" alt="background">
+    </div>
+    <div class="overlay toggle-nav"></div>
+
     <header>
-        <img src="images/Refreshed Skincare (2).png" alt="refreshed-skincare-logo" width="300">
-        <div class="top-header"> <nav>
-            <a href="#About">About</a>
-            <a href="#Help">Help</a>
-            <a href="#Cart">Cart (0)</a>
-        </nav>
-            <img src="images/instagramlogo.svg" alt="instagram-logo" width="100">
-            <img src="images/pinterestlogo.png" alt="pinterest-logo" width="50">
-            <img src="images/tiktokicon.png" alt="tiktok-icon" width="50">
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
         </div>
+        <nav class="toggle-nav">
+            <a href="#about">About</a>
+            <a href="#cart">Cart (0)</a>
+            <a href="#staff">Staff</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <img src="images/Refreshed Skincare (2).png" alt="logo" width="200">
+        <div class="social">
+            <a href="https://www.tiktok.com/en/"><img src="images/tiktokicon.png" alt="Tiktok"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterestlogo.png" alt="Pinterest"></a>
+        </div>
+
     </header>
     <main>
-        <div class="navigation-options"> 
-            <nav>
-            <a href="home.html">Home</a>
-            <a href="quiz.html">Quiz</a>
-            <a href="face.html">Face</a>
-            <a href="lips.html">Lips</a>
-            <a href="body.html">Body</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="all-inclusive-lines.html">All Inclusive Lines</a>
-            <a href="sale.html">Sale</a>
-        </nav></div>
+        
+        <section class="call-to-action">
+            <h2>Refreshed Skincare</h2>
+            <a href="#contact" class="button">Have a question?</a>
 
-    <div class="start-quiz">
-        <h1><b>Start Quiz</b></h1>
-    </div>
-    
-</body>
-</html>
+            
+
+        </section>
+        <section class="our-story" id="about">
+
+            <nav class="toggle-nav">
+                <a href="home.html">Home</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="face.html">Face</a>
+                <a href="lips.html">Lips</a>
+                <a href="body.html">Body</a>
+                <a href="all-inclusive-lines.html">All Inclusive Lines</a>
+            </nav>
+
+            <section class="quiz" id="quiz">
+                <h1><b>Start Quiz</b></h1>
+            </section>
+            <footer><span>Refreshed Skincare-Portland, OR <script>document.write(new Date().getFullYear());</script></span>
+                <div class="social">
+                    <a href="https://www.tiktok.com/en/"><img src="images/tiktokicon.png" alt="Tiktok"></a>
+                    <a href="https://www.instagram.com/"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+                    <a href="https://www.pinterest.com/"><img src="images/pinterestlogo.png" alt="Pinterest"></a>
+                </div>
+            </footer>
+            
+        </body>
+        </html>

@@ -6,85 +6,114 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Refreshed Skincare</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="scripts.js"></script>
 </head>
 <body>
+    <div class="parallax">
+        <img src="images/background image.webp" alt="background">
+    </div>
+    <div class="overlay toggle-nav"></div>
+
     <header>
-        <img src="images/Refreshed Skincare (2).png" alt="refreshed-skincare-logo" width="300">
-        <div class="top-header"> <nav>
-            <a href="#About">About</a>
-            <a href="#Help">Help</a>
-            <a href="#Cart">Cart (0)</a>
-        </nav>
-            <img src="images/instagramlogo.svg" alt="instagram-logo" width="100">
-            <img src="images/pinterestlogo.png" alt="pinterest-logo" width="50">
-            <img src="images/tiktokicon.png" alt="tiktok-icon" width="50">
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
         </div>
+        <nav class="toggle-nav">
+            <a href="#about">About</a>
+            <a href="#cart">Cart (0)</a>
+            <a href="#staff">Staff</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <img src="images/Refreshed Skincare (2).png" alt="logo" width="200">
+        <div class="social">
+            <a href="https://www.tiktok.com/en/"><img src="images/tiktokicon.png" alt="Tiktok"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterestlogo.png" alt="Pinterest"></a>
+        </div>
+
     </header>
     <main>
-        <div class="navigation-options"> 
-            <nav>
-            <a href="home.html">Home</a>
-            <a href="quiz.html">Quiz</a>
-            <a href="face.html">Face</a>
-            <a href="lips.html">Lips</a>
-            <a href="body.html">Body</a>
-            <a href="testimonials.html">Testimonials</a>
-            <a href="all-inclusive-lines.html">All Inclusive Lines</a>
-            <a href="sale.html">Sale</a>
-        </nav></div>
-
         
-        <div class="#about">
-                <h1>Our Story...</h1>
-                <p>Refreshed Skincare is a brand that is committed to creating<br>
-                    effective, clean, and sustainable skincare items. Created by avid skincare and wellness advocates,<br>
-                    Refreshed Skincare brings their customers personalized skincare regimens, and the right products<br>
-                    to do so. In order to do this, the brand supplies each customer/user the ability to take a skincare<br>
-                    quiz. This quiz will offer them the knowledge and understanding of their type of skin, and what<br>
-                    products within the brand best matches with their results. Refreshed Skincare brings an<br>
-                    innovative way to understand your skin, and what you are putting on it. This brand brings a new<br>
-                    twist to skincare, hiding no secrets, and supplying you with the right resources to achieve the<br>
-                    results that you want; using clean and pure resources that won't make your skin feel heavy or<br>
-                    irritated.</p>
-                    <p>The skincare lines include cleansers, moisturizers, serums, exfoliators, sunscreen, and<br>
-                    face masks. The brand also offers a line of facial tools including reusable face cleansing pads,<br>
-                    face rollers, gua shas, and under eye patches. The line is offered through a range of types of skin<br>
-                    ranging from sensitive and light, to long-lasting and deeply-penetrating.</p>
+        <section class="call-to-action">
+            <h2>Refreshed Skincare</h2>
+            <a href="#contact" class="button">Have a question?
+                <a href="home.html">Home</a>
+                <a href="quiz.html">Quiz</a>
+                <a href="face.html">Face</a>
+                <a href="lips.html">Lips</a>
+                <a href="body.html">Body</a>
+                <a href="all-inclusive-lines.html">All Inclusive Lines</a>
+            
+            
 
-                <h2>Meet Our Staff!</h2>
+        </section>
+        <section class="our-story" id="about">
+
+            
+            <h3>Our Story</h3>
+            <p>Refreshed Skincare is a skin care and wellness brand that is committed<br> to creating effective, clean, and sustainable skincare items. Created by avid skincare and wellness advocates,<br> Refreshed Skincare brings their customers personalized skincare regimens,<br> and the right products to do so. In order to do this, the<br> brand supplies each customer/user the ability to take a skincare quiz.<br> This quiz will offer them the knowledge and understanding of their type of skin,<br> and what products within the brand best matches with their results. Refreshed Skincare brings<br> an innovative way to understand your skin, and what you are putting on it.<br> 
+            This brand brings a new twist to skincare, hiding no secrets, and supplying<br> you with the right resources to achieve the results that you want; using clean and pure<br> resources that won't make your skin feel heavy or irritated.</p>
+            <p>The skincare lines include cleansers, moisturizers, and body care.<br> The brand also offers a line of facial tools including reusable face cleansing pads.<br> The line is offered through a range of types of skin
+            ranging from sensitive and light, to long-lasting and deeply-penetrating.</p>
+
+        </section>
+        <section class="staff" id="staff">
+            <h3>Meet Our Staff</h3>
+            <div>
                 <h3>Jack Fresh-CEO/Founder</h3>
+                <img src="images/jack-fresh.jpeg" alt="jack" width="200">
                 <p>Hi! My name is Jack Fresh and I am the proud owner/founder of Refreshed Skincare! My wife, Jill, and I founded this brand when our teenage daughter was having a hard time finding a skincare brand that worked well for her. We love health and wellness and decided we would feel better creating a brand that we knew and trusted. And Refreshed Skincare was born! We take pride in giving our customers the best skincare that works well for anyone.</p>
 
                 <h3>Jill Fresh-CEO/Founder</h3>
+                <img src="images/jill-fresh.jpeg" alt="jill" width="300">
                 <p>Hi everyone! My name is Jill Fresh and I am the proud owner/founder of Refreshed Skincare! Along with my husband, Jack, we love delivering a quality product to our supporters. I enjoy all things health and wellness, which would explain my love for skincare! In my free time I love to bike, cook, and practice yoga. I also am a proud mother to three beautiful girls!</p>
 
                 <h3>Melissa Brown-Skin Expert</h3>
+                <img src="images/melissa-brown.jpeg" alt="melissa" width="300">
                 <p>Greetings skincare enthusiasts! My name is Melissa Brown and I am a skincare expert for Refreshed Skincare. My passion in life is matching the perfect skincare routine to each customer so they are confident and radiant in all aspects of their lives. I specialize in dry skincare routines, seeing as I suffer myself, but I love working with all my clients!</p>
 
                 <h3>Aaron Love-Quiz Creator</h3>
+                <img src="images/aaron-love.jpeg" alt="aaron" width="300">
                 <p>Hello there! My name is Aaron Love and I am a skincare quiz creator at Refreshed Skincare! My job includes creating the best, newest version of quizes to give our customers the best experience within our brand. I design the quizes to encompass all skin types so that we can deliver the best remedy to your needs!</p>
 
                 <h3>Brandy Moon-Quiz Creator</h3>
+                <img src="images/brandy-moon.webp" alt="brandy" width="300">
                 <p>Hey everyone! My name is Brandy Moon and I am a skincare quiz  creator at Refreshed Skincare! Along with Aaron, I take pride in offering the best service to all our clients. We work hard to bring the best information and the best care to you, our loyal supporters!</p>
-        </div>
-        
-        <div class="#help">
-            <h1>Not Finding What You're Looking For?</h1>
-            <h2>Let us help!</h2>
-            <p>If you have any questions regarding skincare, routine, or ingredient basics, don't hesitate to contact us!</p>
-            <p><b>Email Us:</b> refreshed_skincare@beautybasics.com</p>
-            <p><b>Call Us:</b> (123) 456-7890</p>
-            <p><b>Headquarters:</b> 123 Main Street Portland, OR 97035</p>
-        </div>
+                
+                
+            </div>
+            <div class="cart" id="cart">
+                <img src="images/cart-icon.png" alt="cart" width="100">
+                <h1>Cart (0)</h1>
+                <h3>Whoops! You don't have anything in your car right now!</h3>
+                <p>Let's fix that! Take a look at our all inclusive lines to find something for you!</p>
 
-        <div class="#cart">
-            <h1>What's in your cart?</h1>
-            <h2>Cart (0)</h2>
-            <h3>You don't have anything in your cart right now, but we can fix that!</h3>
-            <p>Take a look at our new releases for some inspiration!</p>
-        </div>
+            </div>
+
+        </section>
+        <section class="contact" id="contact">
+            <form>
+                <h3>Contact</h3>
+                <label for="name">Name</label>
+                <input type="text" id="name">
+                <label for="email">Email</label>
+                <input type="email" id="email">
+                <textarea>Type message here...</textarea>
+                <input type="submit">
+            </form>
+
+        </section>
+
     </main>
-    
+    <footer><span>Refreshed Skincare-Portland, OR <script>document.write(new Date().getFullYear());</script></span>
+        <div class="social">
+            <a href="https://www.tiktok.com/en/"><img src="images/tiktokicon.png" alt="Tiktok"></a>
+            <a href="https://www.instagram.com/"><img src="images/instagramlogo.svg" alt="Instagram"></a>
+            <a href="https://www.pinterest.com/"><img src="images/pinterestlogo.png" alt="Pinterest"></a>
+        </div>
+    </footer>
     
 </body>
 </html>
