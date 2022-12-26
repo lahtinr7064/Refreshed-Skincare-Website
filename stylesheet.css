@@ -74,6 +74,7 @@ header{
     background-color: rgba(229, 215, 180, 0.688);
     position: fixed;
     z-index: 1;
+    /*Top, right, left, and bottom all need a unit. Like rem or px.*/
     top: 2;
     right: 2;
     left: 2;
